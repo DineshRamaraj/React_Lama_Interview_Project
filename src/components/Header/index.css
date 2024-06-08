@@ -1,0 +1,42 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.header-logo-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.header-logo-text{
+    font-family:  sans-serif;
+    font-size: 28px;
+    color: #7E22CE;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+.header-setting-container{
+    display: flex;
+}
+
+.header-setting{
+    font-size: 24px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.header-bell{
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.project-container{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.project-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-title{
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #7E22CE;
+}
+
+.project-add-button{
+    background-color: #211935;
+    border-radius: 8px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.add-icon{
+    background-color: #f8f8f8;
+    border-radius: 18px;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-right: 8px;
+}
+
+.project-add-button-text{
+    color: #f8f8f8;
+    font-size: 18px;
+    font-family: "Roboto";
+    padding: 0;
+    margin: 8px 0;
+}
