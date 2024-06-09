@@ -12,11 +12,13 @@
     font-family: "Roboto";
     font-weight: 500;
     color: #7E22CE;
+    padding: 10px 0;
 }
 
 .home-image{
     width: 350px;
     height: 250px;
+    padding: 10px 0;
 }
 
 .home-description{
@@ -25,11 +27,12 @@
     color: #838383;
     line-height: 1.4;
     width: 80%;
+    padding: 10px 0;
 }
 
-.create-project-button-container{
+/* .create-project-button-container{
     display: flex;
-}
+} */
 
 .create-button{
     background-color: #211935;
@@ -38,6 +41,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    margin: 20px 0;;
 }
 
 .create-icon{
@@ -54,4 +58,79 @@
     font-size: 20px;
     font-family: "Roboto";
     margin: 15px 0;
+}
+
+.home-popup-container{
+    background-color: #ffffff;
+    width: 50vw;
+    top: -50px ;
+    padding: 30px;
+}
+
+.home-popup-heading{
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.home-popup-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-popup-label{
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #000000;
+    padding: 10px 0 10px;
+}
+
+.home-popup-input{
+    font-family: "Roboto";
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #969696;
+    outline: none;
+}
+
+.home-popup-error-message{
+    color: red;
+    font-family: "Roboto";
+    font-size: 12px;
+    padding: 10px 0 20px;
+}
+
+.home-popup-buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px 0;
+}
+
+.home-popup-close-button{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: red;
+    background-color:transparent;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.home-popup-submit-button{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #ffffff;
+    background-color: #7E22CE;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
 }

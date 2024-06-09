@@ -1,7 +1,9 @@
+
 .project-container{
     display: flex;
     flex-direction: column;
     align-items: space-between;
+    padding: 20px 0;
 }
 
 .project-header-container{
@@ -20,7 +22,7 @@
 .project-add-button{
     background-color: #211935;
     border-radius: 8px;
-    padding: 0 20px;
+    padding: 0 10px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -29,7 +31,7 @@
 .add-icon{
     background-color: #f8f8f8;
     border-radius: 18px;
-    padding: 6px;
+    padding: 5px 6px;
     font-size: 14px;
     font-weight: 800;
     margin-right: 8px;
@@ -41,4 +43,64 @@
     font-family: "Roboto";
     padding: 0;
     margin: 8px 0;
+}
+
+.project-list-container{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.project-item{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 8px;
+    border: 1px solid #999999;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px #00000044;
+    margin-bottom: 10px;
+
+}
+
+.project-logo{
+    width: 80px;
+    height: 80px;
+    background-color: #F8A01D;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-family: "Roboto";
+    color: #ffffff;
+}
+
+.project-name-container{
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 5px;
+    padding-left: 0;
+}
+
+.project-name{
+    font-size: 20px;
+    font-family: "Roboto";
+    color: #7E22CE;
+}
+
+.project-episodes{
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #3C3C3C;
+    padding-top: 1px;
+}
+
+.project-editing-time{
+    font-family: "Roboto";
+    font-size: 12px;
+    color: #969696;
+    align-items: flex-end;
 }
