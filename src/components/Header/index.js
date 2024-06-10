@@ -11,8 +11,8 @@ const Header = () => (
       <h1 className="header-logo-text">LAMA.</h1>
     </div>
     <div className="header-setting-container">
-      <i class="fa-solid fa-gear header-setting"></i>
-      <i class="fa-regular fa-bell header-bell"></i>
+      <i className="fa-solid fa-gear header-setting"></i>
+      <i className="fa-regular fa-bell header-bell"></i>
     </div>
   </div>
 );

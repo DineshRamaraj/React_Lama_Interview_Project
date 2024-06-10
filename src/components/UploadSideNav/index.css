@@ -1,0 +1,154 @@
+.upload-side-nav-container{
+    background-color: #F3E8FF;
+    width: 100%;
+    height: 100vh;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 20px 20px 0 20px ;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.upload-logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    cursor: pointer;
+}
+
+.upload-logo{
+    width: 50px;
+    height: 45px;
+}
+
+.upload-logo-text{
+    font-family:  "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+    color: #7E22CE;
+    padding-left: 5px;
+}
+
+.upload-side-nav-hint{
+    color: #49454F;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.upload-nav-list-container{
+    list-style: none;
+    padding-left: 0;
+}
+
+.upload-nav-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.upload-nav-item:hover{
+    background-color: #1D1B2044;
+}
+
+.upload-nav-item-active{
+    background-color: #7E22CE;
+}
+
+.upload-nav-item-active:hover{
+    background-color: #7E22CE;
+}
+
+.upload-nav-item-number{
+    background-color: lightgray;
+    color: #3C3C3C;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.upload-nav-item-number-active{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.upload-nav-item-title{
+    color: #49454F;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.upload-nav-item-title-active{
+    color: #ffffff;
+}
+
+.upload-hr-line{
+    color: #CAC4D0;
+}
+
+.upload-setting{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.upload-setting:hover{
+    background-color: #1D1B2044;
+}
+
+.upload-setting-active{
+    background-color: #7E22CE;
+}
+
+.upload-setting-active:hover{
+    background-color: #7E22CE;
+}
+
+.upload-setting-icon{
+    background-color: lightgray;
+    color: #1D1B2077;
+    padding: 8px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+
+.upload-setting-icon-active{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+.upload-setting-title{
+    color: #49454F;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.upload-setting-title-active{
+    color: #ffffff;
+}

@@ -5,6 +5,11 @@
     justify-content: center;
     padding-bottom: 30px;
     min-height: 80vh;
+    padding: 10px 100px;
+}
+
+.blur-effect{
+    filter: blur(10px);
 }
 
 .home-title{
