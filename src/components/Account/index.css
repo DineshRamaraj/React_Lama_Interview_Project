@@ -1,0 +1,127 @@
+.navbar-account-container{
+    display:flex;
+    flex-direction:column;
+    min-height: 90vh;
+}
+
+.account-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+
+.account-heading{
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #7E22CE;
+}
+
+.account-details-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 0 0;
+}
+
+.account-image{
+    width: 150px;
+    height: 150px;
+}
+
+.account-input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    width: 300px;
+}
+
+.account-label{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #3C3C3C;
+    padding-bottom: 3px;
+}
+
+.account-input{
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+    font-family: "Roboto";
+    font-size: 16px;
+    border: 1px solid #999999;
+    outline: 0;
+}
+
+.account-subscription-container{
+    padding: 0 50px;
+}
+
+.account-subscription{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 30px;
+    border: 2px solid #7E22CE;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #7E22CE, #460281);
+}
+
+.account-subscription-description{
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.account-subscription-hint{
+    text-decoration: underline;
+}
+
+.account-subscription-upgrade{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #999999;
+    border-radius: 8px;
+    color: #7E22CE;
+    background-color: #ffffff;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.account-subscription-cancel-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.account-subscription-show-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.account-subscription-cancel{
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #FF274C;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.account-subscription-show{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    color: limegreen;
+    padding: 10px 30px;
+    border: 1px solid limegreen;
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none;
+}

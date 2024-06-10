@@ -6,6 +6,7 @@ import ContextComponent from "./Context/contextComponent";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import UploadFlow from "./components/UploadFlow";
+import ProjectConfiguration from "./components/ProjectConfiguration";
 import "./App.css";
 
 const projectItem = [
@@ -75,6 +76,7 @@ class App extends Component {
               <Route exact path="/" element={<Home />} />
               <Route path="/projects" element={<Projects />} />
               <Route path='/upload' element={<UploadFlow />} />
+              <Route path='/configuration' element={<ProjectConfiguration />} />
             </Routes>
           </ContextComponent.Provider>
         </div>

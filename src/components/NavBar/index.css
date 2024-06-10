@@ -1,0 +1,49 @@
+.nav-bar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 100px;
+    padding: 50px;
+}
+
+.nav-bar-direction-container{
+    display: flex;
+    color: #7E22CE;
+}
+
+.nav-bar-home-icon{
+    font-size: 18px;
+}
+
+.nav-bar-lang-bell-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-lang-icon-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-bar-lang-name{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.nav-bar-lang-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.nav-bar-bell-container{
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.nav-bar-bell{
+    font-size: 20px;
+}
